@@ -7,10 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 body{
     background-color: var(--preto);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
 }
 
 header .container{
@@ -38,3 +40,27 @@ header nav a {
 header nav a:hover{
     color: rgb(240, 240, 216);
 }
+
+/**FILME PRINCIPAL**/
+
+.filme-principal   {
+    font-size: 16px ;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/riverdale-fundo.jpg);
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
