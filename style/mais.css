@@ -27,7 +27,6 @@ header .logo{
     color: var(--vermelho);
     font-weight: bold;
     font-family: 'Arial Black';
-    margin-left: 10px;
 }
 
 header nav a {
@@ -56,11 +55,52 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+ .container{
+    margin-left: 2%;
+}
+
 .filme-principal .descricao{
-    margin-bottom: 40px;
+    margin: 1% 0 4% 0;
 }
 
-.titulo{
+.filme-principal .titulo{
     font-size: 40px;
+    font-family: 'Trebuchet MS',Arial, sans-serif;
+    margin-top: 7%;
 }
 
+.filme-principal .botao-f-principal{
+    background-color: rgba(42, 42, 42, 0.6);
+    border: none;
+    color: azure;
+    border-radius: 5%;
+
+    align-items: center;
+    
+
+    padding: 12px 15px;
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: .3s ease all;
+}
+
+.filme-principal .botao-f-principal:hover{
+    border: solid 2px;
+    border-color: azure;
+    border-radius: 5%;
+    background-color: azure;
+    color: black ;
+    font-weight: bold;
+}
+
+.filme-principal .fas{
+    margin-right: 3px;
+}
+
+
+.filme-principal .container{
+    width: 80%;
+}
